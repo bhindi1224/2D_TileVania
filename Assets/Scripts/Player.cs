@@ -15,11 +15,13 @@ public class Player : MonoBehaviour {
     //Cached component references
     Rigidbody2D myRigidBody;
     Animator myAnimator;
+    Collider2D myCollider2D;
 
 	// Use this for initialization
 	void Start () {
         myRigidBody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
+        myCollider2D = GetComponent<Collider2D>();
 	}
 	
 	// message then methods
@@ -40,7 +42,7 @@ public class Player : MonoBehaviour {
 
     private void Jump()
     {
-        if (CrossPlatformInputManager.GetButtonDown("Jump"))
+        if(CrossPlatformInputManager.GetButtonDown("Jump") && myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             Vector2 jumpVelocityToAdd = new Vector2(0f, jumpForce);
             myRigidBody.velocity += jumpVelocityToAdd;
