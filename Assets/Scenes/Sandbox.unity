@@ -3024,6 +3024,23 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
+--- !u!1 &1225530468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1869818221542984, guid: 04de1b03fc54c3e4590468d4c1eb67f5,
+    type: 2}
+  m_PrefabInternal: {fileID: 2011185017}
+--- !u!114 &1225530474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1225530468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72289ca4f27836458e71152fddff71e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSpeed: 5
 --- !u!1 &1601608187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3075,11 +3092,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4319387143296446, guid: 04de1b03fc54c3e4590468d4c1eb67f5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.79
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 4319387143296446, guid: 04de1b03fc54c3e4590468d4c1eb67f5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.32
+      value: 1.64
       objectReference: {fileID: 0}
     - target: {fileID: 4319387143296446, guid: 04de1b03fc54c3e4590468d4c1eb67f5, type: 2}
       propertyPath: m_LocalPosition.z
