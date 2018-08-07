@@ -20286,6 +20286,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1996849282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1869818221542984, guid: 04de1b03fc54c3e4590468d4c1eb67f5,
+    type: 2}
+  m_PrefabInternal: {fileID: 2011185017}
+--- !u!61 &1996849283
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996849282}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05939664, y: -0.41748405}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.34868506, y: 0.16503191}
+  m_EdgeRadius: 0
 --- !u!95 &1996849287 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95649595215333472, guid: 04de1b03fc54c3e4590468d4c1eb67f5,
@@ -20330,6 +20360,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 70120121465581370, guid: 04de1b03fc54c3e4590468d4c1eb67f5,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 8c7c66eff0244474da9ca69d5a110ed0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04de1b03fc54c3e4590468d4c1eb67f5, type: 2}
   m_IsPrefabAsset: 0
