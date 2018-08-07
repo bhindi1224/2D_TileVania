@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50786790999275020}
   - component: {fileID: 70120121465581370}
   - component: {fileID: 114063127494845276}
+  - component: {fileID: 61392636630733116}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -64,6 +65,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!61 &61392636630733116
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869818221542984}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05939664, y: -0.41748405}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.34868506, y: 0.16503191}
+  m_EdgeRadius: 0
 --- !u!70 &70120121465581370
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -72,7 +98,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1869818221542984}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8c7c66eff0244474da9ca69d5a110ed0, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -111,6 +137,7 @@ MonoBehaviour:
   runSpeed: 8
   jumpForce: 18
   climbSpeed: 5
+  deathKick: {x: 250, y: 250}
 --- !u!212 &212519536607163784
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -144,7 +171,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -316230041
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300010, guid: 898e93c0711e08e4a8b95a3e968a337f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
