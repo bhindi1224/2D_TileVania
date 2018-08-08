@@ -194,6 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinPickupSFX: {fileID: 8300000, guid: 2e00e0ee8bf00ad43898be51db491709, type: 3}
+  pointsToAdd: 30
 --- !u!212 &212868187420482738
 SpriteRenderer:
   m_ObjectHideFlags: 1
