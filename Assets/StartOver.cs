@@ -7,6 +7,6 @@ public class StartOver : MonoBehaviour {
 
     public void StartFirstLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }
